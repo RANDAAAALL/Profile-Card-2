@@ -1,0 +1,325 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main {
+    width: 100%;
+    height: 100vh;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .card {
+    background: #fff;
+    height: 400px;
+    width: 450px;
+    position: relative;
+    border-radius: 8%;
+}
+img {
+    border-radius:50%;
+    width: 115px;
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 90px;
+}
+.prof-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 65px;
+}
+.prof-title h1,h2 {
+    font-family: sans-serif;    
+}
+.prof-title h1 {
+    font-size: 1.5em;
+}
+.prof-title h2 {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+.cardbody{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.line {
+    width: 1px;
+    height: 95px;
+    margin: 43px 5px 0px 20px;
+    background-color: black;
+}
+.cardbody li {
+    list-style: none;
+    margin-top: 10px;
+    text-align: center;
+}
+.socials {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+i {
+    margin: 50px 5px 0px 0px;
+    font-size: 25px;
+}
+.fa-facebook {
+    color: #1877F2;
+}
+.fa-twitter {
+    color: #1DA1F2;
+}
+
+.fa-instagram {
+    color: #833AB4;
+}
+.fa-facebook:hover{
+    animation: shake 1s;
+}
+.fa-instagram:hover{
+    animation: shake 1s;
+}
+.fa-twitter:hover{
+    animation: shake 0.5s;
+}
+@keyframes shake {
+    to{transform: translate(0px, -10px);} 
+}
+@media (max-width: 375px) {
+    main .card {
+        height: 350px;
+        width: 330px;   
+    }
+
+    img {
+        width: 100px; 
+        top: -35px;
+        height: 75px;
+    }
+
+    .prof-title h1 {
+        font-size: 1.3em; 
+        margin-top: -4px;
+    }
+
+    .prof-title h2 {
+        font-size: 1.2em;
+    }
+
+    .line {
+        height: 80px; 
+        margin: 33px 0px 0px 15px;
+    }
+
+    i {
+        margin: 35px 8px 0px 0px;
+        font-size: 22px; 
+    }
+    .SKILLS h2{
+        font-size: 1.3em;
+        margin-left: 10px;
+    }
+    .HOBBIES h2 {
+        font-size: 1.3em;
+        margin-left: 9px;
+    }
+}
+@media (max-width: 360px) {
+    main .card {
+        height: 350px;
+        width: 330px;   
+    }
+
+    img {
+        width: 100px; 
+        top: -35px;
+        height: 75px;
+    }
+
+    .prof-title h1 {
+        font-size: 1.3em; 
+        margin-top: -4px;
+    }
+
+    .prof-title h2 {
+        font-size: 1.2em;
+    }
+
+    .line {
+        height: 80px; 
+        margin: 33px 0px 0px 15px;
+    }
+
+    i {
+        margin: 35px 8px 0px 0px;
+        font-size: 22px; 
+    }
+    .SKILLS h2{
+        font-size: 1.3em;
+        margin-left: 10px;
+    }
+    .HOBBIES h2 {
+        font-size: 1.3em;
+        margin-left: 9px;
+    }
+}
+@media (max-width: 425px) {
+    main .card {
+        height: 350px;
+        width: 330px;   
+    }
+
+    img {
+        width: 100px; 
+        top: -35px;
+        height: 75px;
+    }
+
+    .prof-title h1 {
+        font-size: 1.3em; 
+        margin-top: -4px;
+    }
+
+    .prof-title h2 {
+        font-size: 1.2em;
+    }
+
+    .line {
+        height: 80px; 
+        margin: 33px 0px 0px 15px;
+    }
+
+    i {
+        margin: 35px 8px 0px 0px;
+        font-size: 22px; 
+    }
+    .SKILLS h2{
+        font-size: 1.3em;
+        margin-left: 10px;
+    }
+    .HOBBIES h2 {
+        font-size: 1.3em;
+        margin-left: 9px;
+    }
+}
+@media (max-width: 320px) {
+    main .card {
+        height: 350px;
+        width: 290px;   
+    }
+
+    img {
+        width: 100px; 
+        top: -35px;
+        height: 75px;
+    }
+
+    .prof-title h1 {
+        font-size: 1.3em; 
+        margin-top: -4px;
+    }
+
+    .prof-title h2 {
+        font-size: 1.2em;
+    }
+
+    .line {
+        height: 80px; 
+        margin: 33px 0px 0px 15px;
+    }
+
+    i {
+        margin: 35px 8px 0px 0px;
+        font-size: 22px; 
+    }
+    .SKILLS h2{
+        font-size: 1.3em;
+        margin-left: 10px;
+    }
+    .HOBBIES h2 {
+        font-size: 1.3em;
+        margin-left: 9px;
+    }
+}
+@media (min-width: 2560px) {
+    main .card {
+        height: 800px;
+        width: 800px;   
+    }
+
+    img {
+        width: 200px; 
+        top: -90px;
+        height: 200px;
+    }
+
+    .prof-title h1 {
+        font-size: 3.5em; 
+        margin-top: 70px;
+    }
+
+    .prof-title h2 {
+        font-size: 3em;
+    }
+
+    .line {
+        height: 162px; 
+        width: 2px;
+        margin: 40px 0px 0px 50px;
+    }
+
+    i {
+        margin: 85px 8px 0px 0px;
+        font-size: 60px; 
+    }
+    .SKILLS h2{
+        font-size: 2.5em;
+        margin-left: 10px;
+    }
+    .HOBBIES h2 {
+        font-size: 2.5em;
+        margin-left: 20px;
+    }
+    .cardbody li {
+        font-size: 2em;
+        margin-top: 20px;
+    }
+    .cardbody {
+        margin-top: 50px;
+    }
+}
+
+
+/*  icons are hovered 
+/*  this is my small proj
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
